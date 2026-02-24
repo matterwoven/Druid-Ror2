@@ -1,5 +1,5 @@
-﻿using HenryMod.Modules;
-using HenryMod.Modules.Characters;
+﻿using DruidMod.Modules;
+using DruidMod.Modules.Characters;
 using RoR2;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,9 +11,9 @@ using UnityEngine;
                     {localScale})
 */
 
-namespace HenryMod.Survivors.Henry
+namespace DruidMod.Survivors.Druid
 {
-    public class HenryItemDisplays : ItemDisplaysBase
+    public class DruidItemDisplays : ItemDisplaysBase
     {
         protected override void SetItemDisplayRules(List<ItemDisplayRuleSet.KeyAssetRuleGroup> itemDisplayRules)
         {

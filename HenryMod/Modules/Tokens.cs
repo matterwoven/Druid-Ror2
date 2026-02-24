@@ -1,4 +1,4 @@
-﻿namespace HenryMod.Modules
+﻿namespace DruidMod.Modules
 {
     internal static class Tokens
     {

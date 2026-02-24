@@ -1,8 +1,8 @@
-﻿using HenryMod.Survivors.Henry.SkillStates;
+﻿using DruidMod.Survivors.Druid.SkillStates;
 
-namespace HenryMod.Survivors.Henry
+namespace DruidMod.Survivors.Druid
 {
-    public static class HenryStates
+    public static class DruidStates
     {
         public static void Init()
         {

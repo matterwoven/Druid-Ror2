@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace HenryMod.Survivors.Henry
+namespace DruidMod.Survivors.Druid
 {
-    public static class HenryStaticValues
+    public static class DruidStaticValues
     {
         public const float swordDamageCoefficient = 2.8f;
 

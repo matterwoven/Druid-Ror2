@@ -1,10 +1,10 @@
 ﻿using EntityStates;
-using HenryMod.Survivors.Henry;
+using DruidMod.Survivors.Druid;
 using RoR2;
 using RoR2.Projectile;
 using UnityEngine;
 
-namespace HenryMod.Survivors.Henry.SkillStates
+namespace DruidMod.Survivors.Druid.SkillStates
 {
     public class ThrowBomb : GenericProjectileBaseState
     {
@@ -16,11 +16,11 @@ namespace HenryMod.Survivors.Henry.SkillStates
 
         public override void OnEnter()
         {
-            projectilePrefab = HenryAssets.bombProjectilePrefab;
+            projectilePrefab = DruidAssets.bombProjectilePrefab;
             //base.effectPrefab = Modules.Assets.SomeMuzzleEffect;
             //targetmuzzle = "muzzleThrow"
 
-            attackSoundString = "HenryBombThrow";
+            attackSoundString = "DruidBombThrow";
 
             baseDuration = BaseDuration;
             baseDelayBeforeFiringProjectile = BaseDelayDuration;

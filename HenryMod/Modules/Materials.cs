@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace HenryMod.Modules
+namespace DruidMod.Modules
 {
     internal static class Materials
     {

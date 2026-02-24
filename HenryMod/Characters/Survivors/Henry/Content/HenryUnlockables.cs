@@ -1,10 +1,10 @@
-﻿using HenryMod.Survivors.Henry.Achievements;
+﻿using DruidMod.Survivors.Druid.Achievements;
 using RoR2;
 using UnityEngine;
 
-namespace HenryMod.Survivors.Henry
+namespace DruidMod.Survivors.Druid
 {
-    public static class HenryUnlockables
+    public static class DruidUnlockables
     {
         public static UnlockableDef characterUnlockableDef = null;
         public static UnlockableDef masterySkinUnlockableDef = null;
@@ -12,9 +12,9 @@ namespace HenryMod.Survivors.Henry
         public static void Init()
         {
             masterySkinUnlockableDef = Modules.Content.CreateAndAddUnlockbleDef(
-                HenryMasteryAchievement.unlockableIdentifier,
-                Modules.Tokens.GetAchievementNameToken(HenryMasteryAchievement.identifier),
-                HenrySurvivor.instance.assetBundle.LoadAsset<Sprite>("texMasteryAchievement"));
+                DruidMasteryAchievement.unlockableIdentifier,
+                Modules.Tokens.GetAchievementNameToken(DruidMasteryAchievement.identifier),
+                DruidSurvivor.instance.assetBundle.LoadAsset<Sprite>("texMasteryAchievement"));
         }
     }
 }
