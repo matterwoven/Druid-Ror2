@@ -20,12 +20,12 @@ namespace DruidMod
         // if you do not change this, you are giving permission to deprecate the mod-
         //  please change the names to your own stuff, thanks
         //   this shouldn't even have to be said
-        public const string MODUID = "com.rob.DruidMod";
+        public const string MODUID = "com.mat.DruidMod";
         public const string MODNAME = "DruidMod";
         public const string MODVERSION = "1.0.0";
 
         // a prefix for name tokens to prevent conflicts- please capitalize all name tokens for convention
-        public const string DEVELOPER_PREFIX = "ROB";
+        public const string DEVELOPER_PREFIX = "MAT";
 
         public static DruidPlugin instance;
 

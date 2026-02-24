@@ -3,6 +3,7 @@ using DruidMod.Modules;
 using DruidMod.Modules.Characters;
 using DruidMod.Survivors.Druid.Components;
 using DruidMod.Survivors.Druid.SkillStates;
+using DruidMod.Survivors.Henry;
 using RoR2;
 using RoR2.Skills;
 using System;
@@ -421,7 +422,7 @@ namespace DruidMod.Survivors.Druid
             //Modules.Prefabs.CloneDopplegangerMaster(bodyPrefab, masterName, "Merc");
 
             //how to set up AI in code
-            DruidAI.Init(bodyPrefab, masterName);
+            HenryAI.Init(bodyPrefab, masterName);
 
             //how to load a master set up in unity, can be an empty gameobject with just AISkillDriver components
             //assetBundle.LoadMaster(bodyPrefab, masterName);
