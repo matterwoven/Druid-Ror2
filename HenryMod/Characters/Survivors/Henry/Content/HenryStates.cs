@@ -13,6 +13,8 @@ namespace DruidMod.Survivors.Druid
             Modules.Content.AddEntityState(typeof(Roll));
 
             Modules.Content.AddEntityState(typeof(ThrowBomb));
+
+
         }
     }
 }

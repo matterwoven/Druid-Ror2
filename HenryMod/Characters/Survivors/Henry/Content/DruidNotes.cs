@@ -29,8 +29,8 @@ namespace HenryMod.Characters.Survivors.Henry.Content
         //  Passive 2: Owlbear blood infuses the grimoire, dealing enough damage in a short time automatically turns Druid into an owlbear, if already an owlbear turn 1 size larger, then level up
 
 
-        //  Primary 1: She draws a sigil in the air that summons a disc of light that hovers over an enemy
-        //  to pelt them with holy daggers (Dagger spawn rate amplified by attack speed, sigil cast speed too)
+        //  Primary 1: She draws a sigil in the air that summons a disc of light that boomerangs through enemies
+        //  and back, hitting both empowers Druid (Increased casting speed) 
 
         //  Primary 2: Druid takes up spectral paws that swipe the area in front of her, third maul inflicts
         //  bleed and empowers Druid (Increased casting speed) and 5% temporary barrier
@@ -45,9 +45,9 @@ namespace HenryMod.Characters.Survivors.Henry.Content
         //  Utility 1: She takes up her staff, on tap uses wind to lift herself and nearby enemies, on hold
         //  she floats, making nearby enemies prone, on release erupting gathered air with great force 
 
-        //  Utility 2: She plants a mushroom that grows spontaneously, when jumped on it launches her in the moved direction, default up.
+        //  Utility 2: She plants a mushroom that grows spontaneously, when jumped on it launches her in the moved direction, default up. Launches enemies for damage
 
-        //  Utility 3: She summons a totem that cycles through sigils drawn by her, mimicking them to cast the same spell once every second 
+        //  Utility 3: She summons a totem that cycles through 3 types to buff her in different ways in their radius (spell damage, healing in pulses, attack speed)
 
 
         //  Special 1: Druid opens her tome, all abilities are changed to spells for her to cast
